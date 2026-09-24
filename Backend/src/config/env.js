@@ -14,7 +14,7 @@ const envSchema = z.object({
   LLM_PROVIDER:             z.enum(['gemini', 'openrouter', 'ollama', 'groq', 'custom']).default('gemini'),
   LLM_BASE_URL:             z.string().default(''),
   LLM_API_KEY:              z.string().min(1),
-  LLM_MODEL:                z.string().min(1).default('gemini-2.5-flash'),
+  LLM_MODEL:                z.string().min(1).default('gemini-3.6-flash'),
 
   EMBED_PROVIDER:           z.enum(['gemini', 'openrouter', 'ollama', 'groq', 'custom']).default('gemini'),
   EMBED_BASE_URL:           z.string().default(''),

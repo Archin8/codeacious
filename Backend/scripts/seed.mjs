@@ -22,6 +22,34 @@ const SAMPLE_NOTES = [
     content: 'Felt very productive today. Finished refactoring the RAG retrieval pipeline and added rate limiting hardening.',
     entry_date: '2026-09-18',
   },
+  {
+    content: 'Had a relaxed Sunday morning with green tea and avocado toast. Spent two hours practicing acoustic guitar.',
+    entry_date: '2026-09-17',
+  },
+  {
+    content: 'Attended a tech meetup on generative AI embeddings and pgvector optimizations. Met some great developers!',
+    entry_date: '2026-09-15',
+  },
+  {
+    content: 'Went grocery shopping: bought fresh salmon, spinach, blueberries, almonds, and Greek yogurt.',
+    entry_date: '2026-09-14',
+  },
+  {
+    content: 'Felt a bit tired in the morning, but a 20-minute meditation session helped reset my focus for the day.',
+    entry_date: '2026-09-12',
+  },
+  {
+    content: 'Completed my monthly goal of reading two books. Started a new sci-fi novel in the evening.',
+    entry_date: '2026-09-10',
+  },
+  {
+    content: 'Had grilled chicken salad for lunch. Went for an evening walk around the lake and saw a beautiful sunset.',
+    entry_date: '2026-09-08',
+  },
+  {
+    content: 'Planned our upcoming weekend hiking trip to the mountains. Checked gear, packed energy bars and water bottles.',
+    entry_date: '2026-09-05',
+  },
 ];
 
 async function seed() {
